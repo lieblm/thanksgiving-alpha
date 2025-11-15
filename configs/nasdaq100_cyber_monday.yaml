@@ -1,0 +1,27 @@
+universe: nasdaq100
+index_symbols: ["^NDX", "QQQ"]
+start_year: 2000
+end_year: 2024
+holiday: US_THANKSGIVING
+window:
+  days_before: 3
+  days_after: 4
+  include_open_before: true
+  include_close_after: true
+session:
+  market: US
+  timezone: America/New_York
+  respect_half_days: true
+  data_source: yahoo
+filters:
+  min_history_years: 5
+  exclude_missing_ratio: 0.10
+ranking:
+  sort_by: ["median_return", "win_rate", "avg_return"]
+  min_trades: 10
+output:
+  dir: "data/outputs"
+  formats: ["parquet", "csv", "html"]
+cache:
+  enabled: true
+  dir: "data/cache"
