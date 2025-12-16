@@ -29,21 +29,21 @@ def holiday_window_dates(
         # Last 5 trading days of year + first 2 trading days of next year
         # Build calendar from Dec to Jan of next year
         cal = us_trading_calendar(date(year, 12, 1), date(year + 1, 1, 31))
-        
+
         # Get the last trading day of the year
         # Find last trading day by going backward from Jan 1 of next year
         year_end_anchor = date(year + 1, 1, 1)
         last_trading_day = shift_business_days(cal, year_end_anchor, -1)
-        
+
         # Go back 4 more trading days (5 total including last day)
         before = shift_business_days(cal, last_trading_day.date(), -4)
-        
+
         # Get first trading day of next year by going forward from Jan 1
         first_trading_day = shift_business_days(cal, year_end_anchor, 1)
-        
+
         # Go forward 1 more trading day (2 total including first day)
         after = shift_business_days(cal, first_trading_day.date(), 1)
-        
+
         return before, after
     else:
         # US_THANKSGIVING logic
