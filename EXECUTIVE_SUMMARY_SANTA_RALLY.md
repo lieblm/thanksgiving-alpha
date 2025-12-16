@@ -7,6 +7,14 @@
 
 ---
 
+## What is the Santa Claus Rally?
+
+The Santa Claus Rally is a well-known stock market pattern where prices tend to rise during the final week of December and the first few days of January. This 7-day window spans the year-end boundary and has been studied by traders and researchers for decades.
+
+This analysis examines 25 years of data (2000-2024) across three major U.S. stock indices—DJIA (30 stocks), NASDAQ-100 (73 stocks), and S&P 500 (229 stocks)—to test whether this seasonal pattern holds up to rigorous statistical testing.
+
+---
+
 ## Key Finding: Stronger Than Thanksgiving
 
 The Santa Claus Rally shows **statistically significant evidence** in 2 of 30 DJIA stocks (Disney +2.55%, JPMorgan +1.97%), making it **stronger than the Thanksgiving effect** which showed zero statistically significant stocks after correction. This suggests year-end positioning creates a more reliable seasonal pattern for specific large-cap value stocks.

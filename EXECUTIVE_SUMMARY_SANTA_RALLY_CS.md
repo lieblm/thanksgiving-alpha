@@ -7,6 +7,14 @@
 
 ---
 
+## Co je Santa Claus Rally?
+
+Santa Claus Rally je známý burzovní vzorec, kdy ceny akcií mají tendenci růst během posledního týdne prosince a prvních několika dnů ledna. Toto 7denní okno překlenuje konec roku a je zkoumáno obchodníky a výzkumníky již desetiletí.
+
+Tato analýza zkoumá 25 let dat (2000-2024) napříč třemi hlavními americkými akciovými indexy—DJIA (30 akcií), NASDAQ-100 (73 akcií) a S&P 500 (229 akcií)—aby otestovala, zda tento sezónní vzorec obstojí při přísném statistickém testování.
+
+---
+
 ## Klíčové zjištění: Silnější než Thanksgiving
 
 Santa Claus Rally vykazuje **statisticky významné důkazy** u 2 z 30 akcií DJIA (Disney +2,55%, JPMorgan +1,97%), což z něj činí **silnější efekt než Thanksgiving**, který po korekci nevykazoval žádné statisticky významné akcie. To naznačuje, že pozice ke konci roku vytvářejí spolehlivější sezónní vzorec pro specifické velké hodnotové akcie.
