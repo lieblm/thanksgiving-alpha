@@ -41,7 +41,7 @@ class Config(BaseModel):
     index_symbols: List[str] = []
     start_year: int
     end_year: int
-    holiday: Literal["US_THANKSGIVING"] = "US_THANKSGIVING"
+    holiday: Literal["US_THANKSGIVING", "SANTA_CLAUS_RALLY"] = "US_THANKSGIVING"
     window: Window = Window()
     session: Session = Session()
     filters: Filters = Filters()

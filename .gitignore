@@ -11,6 +11,17 @@ poetry.lock
 data/cache/
 data/outputs/
 
+# S&P 500 full analysis experiments (local only)
+get_sp500_full.py
+sp500_full_500stocks_output.txt
+sp500_full_list.txt
+
+# Santa Rally analysis output files (local only)
+djia_santa_rally_output.txt
+nasdaq100_santa_rally_output.txt
+sp500_santa_rally_output.txt
+verify_santa_dates.py
+
 # Notebooks
 *.ipynb_checkpoints/
 

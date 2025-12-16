@@ -1,5 +1,5 @@
 from datetime import date
-from tgalpha.holidays import thanksgiving
+from tgalpha.holidays import thanksgiving, santa_claus_rally_period
 
 
 def test_thanksgiving_2025() -> None:
@@ -40,3 +40,34 @@ def test_thanksgiving_is_fourth_thursday() -> None:
                 thursdays_before += 1
         # This should be the 4th Thursday (0-indexed: 3)
         assert thursdays_before == 3, f"Thanksgiving {year} is not the 4th Thursday"
+
+
+def test_santa_claus_rally_2024() -> None:
+    """Test Santa Claus Rally period for 2024."""
+    start, end = santa_claus_rally_period(2024)
+    assert start == date(2024, 12, 24)
+    assert end == date(2025, 1, 3)
+
+
+def test_santa_claus_rally_2023() -> None:
+    """Test Santa Claus Rally period for 2023."""
+    start, end = santa_claus_rally_period(2023)
+    assert start == date(2023, 12, 24)
+    assert end == date(2024, 1, 3)
+
+
+def test_santa_claus_rally_spans_year_boundary() -> None:
+    """Test that Santa Claus Rally period spans year boundary."""
+    for year in range(2000, 2026):
+        start, end = santa_claus_rally_period(year)
+        assert start.year == year, f"Start date should be in {year}"
+        assert end.year == year + 1, f"End date should be in {year + 1}"
+
+
+def test_santa_claus_rally_period_length() -> None:
+    """Test that Santa Claus Rally period has reasonable length."""
+    for year in range(2000, 2026):
+        start, end = santa_claus_rally_period(year)
+        days_diff = (end - start).days
+        # Should be approximately 10 days (Dec 24 to Jan 3)
+        assert days_diff == 10, f"Period length for {year} should be 10 days, got {days_diff}"
