@@ -188,10 +188,10 @@ These are the **only two stocks** across all three indices that pass rigorous st
 
 ## For More Information
 
-- **Full Analysis:** See `ANALYSIS_SANTA_RALLY_COMPARISON.md`
+- **Full Analysis:** [ANALYSIS_SANTA_RALLY_COMPARISON.md](https://github.com/lieblm/thanksgiving-alpha/blob/main/ANALYSIS_SANTA_RALLY_COMPARISON.md)
 - **Repository:** https://github.com/lieblm/thanksgiving-alpha
-- **Methodology:** See README.md for technical details
-- **Citation:** See CITATION.cff for academic use
+- **Methodology:** [README.md](https://github.com/lieblm/thanksgiving-alpha/blob/main/README.md) for technical details
+- **Citation:** [CITATION.cff](https://github.com/lieblm/thanksgiving-alpha/blob/main/CITATION.cff) for academic use
 
 ---
 
