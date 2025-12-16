@@ -3,7 +3,7 @@ import polars as pl
 import pandas as pd
 from typing import Tuple, Optional, Literal
 
-from .holidays import thanksgiving, santa_claus_rally_period
+from .holidays import thanksgiving
 from .calendar_utils import us_trading_calendar, shift_business_days
 
 
