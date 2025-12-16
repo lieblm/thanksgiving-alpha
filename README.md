@@ -4,14 +4,17 @@
 
 Comprehensive quantitative analysis of major US equity indices (DJIA, NASDAQ-100, S&P 500) measuring returns from X business days before Thanksgiving to Y business days after. Built with Python, featuring proper NYSE trading calendars, statistical significance testing, and multi-format outputs.
 
-## 📊 Two Trading Windows Analyzed
+## 📊 Three Trading Windows Analyzed
 
-This project analyzes **two distinct trading windows** around Thanksgiving:
+This project analyzes **three distinct seasonal trading windows**:
 
 1. **Thanksgiving Window** (Traditional): 3 days before → 1 day after (Black Friday half-day)
 2. **Cyber Monday Window** (Extended): 3 days before → 4 days after (Cyber Monday)
+3. **Santa Claus Rally Window** (Year-End): Last 5 trading days of year → First 2 trading days of next year (7 days)
 
-See comparative analysis: **[COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md)**
+See comparative analyses:
+- **[COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md)**
+- **[EXECUTIVE_SUMMARY_SANTA_RALLY.md](EXECUTIVE_SUMMARY_SANTA_RALLY.md)** | **[Czech version](EXECUTIVE_SUMMARY_SANTA_RALLY_CS.md)**
 
 **Key Findings from 25-Year Multi-Index Analysis (2000-2024):**
 
@@ -28,6 +31,14 @@ See comparative analysis: **[COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](COMPARI
 - **UNH strongest signal:** p=0.001 (DJIA), 84% win rate, +2.80% median return
 - **Extended window captures e-commerce momentum** (Cyber Monday online shopping surge)
 - See comprehensive report: **[COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md](COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md)**
+
+### Santa Claus Rally Window (Year-End Analysis)
+- **332 unique stocks** analyzed with **8,091 stock-year observations**
+- **2 of 30 DJIA stocks (6.9%)** show statistical significance after FDR correction
+- **Statistically significant winners:** DIS (+2.55%, p=0.037), JPM (+1.97%, p=0.037)
+- **Stronger than Thanksgiving:** First seasonal window to show statistical significance in large-cap stocks
+- **Broad-based effect:** 81.7% of S&P 500 stocks show positive median returns
+- See executive summaries: **[English](EXECUTIVE_SUMMARY_SANTA_RALLY.md)** | **[Czech](EXECUTIVE_SUMMARY_SANTA_RALLY_CS.md)**
 
 ## Features
 
@@ -110,9 +121,10 @@ Create a YAML configuration file (see examples in `configs/`):
 universe: sp500               # Options: djia, nasdaq100, sp500, or path to CSV file
 start_year: 2000              # First year to analyze
 end_year: 2024                # Last year to analyze (inclusive)
+holiday: US_THANKSGIVING      # Options: US_THANKSGIVING, SANTA_CLAUS_RALLY
 window:
-  days_before: 3              # Business days before Thanksgiving
-  days_after: 1               # Business days after Thanksgiving (1=Black Friday, 4=Cyber Monday)
+  days_before: 3              # Business days before holiday (ignored for SANTA_CLAUS_RALLY)
+  days_after: 1               # Business days after holiday (1=Black Friday, 4=Cyber Monday)
 ranking:
   min_trades: 10              # Minimum observations required per symbol
   compute_statistics: true    # Enable statistical significance testing
@@ -138,6 +150,11 @@ output:
 - `configs/djia_cyber_monday.yaml` - DJIA, days_after=4
 - `configs/nasdaq100_cyber_monday.yaml` - NASDAQ-100, days_after=4
 - `configs/sp500_cyber_monday.yaml` - S&P 500, days_after=4
+
+*Santa Claus Rally Window (Year-End 7-day):*
+- `configs/djia_santa_rally.yaml` - DJIA, last 5 + first 2 trading days
+- `configs/nasdaq100_santa_rally.yaml` - NASDAQ-100, last 5 + first 2 trading days
+- `configs/sp500_santa_rally.yaml` - S&P 500, last 5 + first 2 trading days
 
 ### Example Output
 
@@ -193,6 +210,13 @@ python -m tgalpha.cli configs/sp500_25years.yaml
 python -m tgalpha.cli configs/djia_cyber_monday.yaml
 python -m tgalpha.cli configs/nasdaq100_cyber_monday.yaml
 python -m tgalpha.cli configs/sp500_cyber_monday.yaml
+```
+
+*Santa Claus Rally Window (Year-End):*
+```bash
+python -m tgalpha.cli configs/djia_santa_rally.yaml --statistics --show-coverage
+python -m tgalpha.cli configs/nasdaq100_santa_rally.yaml --statistics --show-coverage
+python -m tgalpha.cli configs/sp500_santa_rally.yaml --statistics --show-coverage
 ```
 
 ### Output Columns
