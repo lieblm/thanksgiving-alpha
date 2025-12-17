@@ -48,7 +48,7 @@ def main(
         try:
             # Calculate window dates for this year
             open_day, close_day = holiday_window_dates(
-                year, cfg.window.days_before, cfg.window.days_after
+                year, cfg.window.days_before, cfg.window.days_after, cfg.holiday
             )
 
             # Add buffer for data download (±7 calendar days)

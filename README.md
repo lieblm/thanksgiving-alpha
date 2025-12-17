@@ -13,7 +13,7 @@ This project analyzes **three distinct seasonal trading windows**:
 3. **Santa Claus Rally Window** (Year-End): Last 5 trading days of year → First 2 trading days of next year (7 days)
 
 See comparative analyses:
-- **[COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md)**
+- **[COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](_thanks/COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md)**
 - **[EXECUTIVE_SUMMARY_SANTA_RALLY.md](EXECUTIVE_SUMMARY_SANTA_RALLY.md)** | **[Czech version](EXECUTIVE_SUMMARY_SANTA_RALLY_CS.md)**
 
 **Key Findings from 25-Year Multi-Index Analysis (2000-2024):**
@@ -30,7 +30,7 @@ See comparative analyses:
 - **10 of 374 stocks (2.8%)** show statistical significance after FDR correction
 - **UNH strongest signal:** p=0.001 (DJIA), 84% win rate, +2.80% median return
 - **Extended window captures e-commerce momentum** (Cyber Monday online shopping surge)
-- See comprehensive report: **[COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md](COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md)**
+- See comprehensive report: **[COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md](_cyberm/COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md)**
 
 ### Santa Claus Rally Window (Year-End Analysis)
 - **332 unique stocks** analyzed with **8,091 stock-year observations**
@@ -83,7 +83,7 @@ python -m tgalpha.cli configs/djia_25years.yaml --top=30 --statistics
 - **Universal Champion:** MNST (Monster Beverage) shows 84% win rate across all three indices
 - **Sector Patterns:** Technology/semiconductors dominate top performers, traditional banking underperforms
 
-See comprehensive reports: `EXECUTIVE_SUMMARY.md`, `ANALYSIS_SP500_25YEARS.md`, `ANALYSIS_NASDAQ100_25YEARS.md`, `ANALYSIS_25YEARS.md`
+See comprehensive reports: `EXECUTIVE_SUMMARY.md`, `_thanks/ANALYSIS_SP500_25YEARS.md`, `_thanks/ANALYSIS_NASDAQ100_25YEARS.md`, `_thanks/ANALYSIS_25YEARS.md`
 
 ## Usage
 
@@ -285,10 +285,20 @@ thanksgiving-alpha/
 │       └── yahoo.py             # Yahoo Finance implementation
 ├── tests/                       # Unit tests (28 tests)
 ├── data/outputs/                # Generated results (gitignored)
-├── EXECUTIVE_SUMMARY.md         # Cross-index stakeholder overview
-├── ANALYSIS_SP500_25YEARS.md    # S&P 500 comprehensive report
-├── ANALYSIS_NASDAQ100_25YEARS.md # NASDAQ-100 comprehensive report
-├── ANALYSIS_25YEARS.md          # DJIA comprehensive report
+├── EXECUTIVE_SUMMARY.md         # Cross-index stakeholder overview (English)
+├── EXECUTIVE_SUMMARY_CS.md      # Cross-index stakeholder overview (Czech)
+├── EXECUTIVE_SUMMARY_SANTA_RALLY.md     # Santa Rally executive summary (English)
+├── EXECUTIVE_SUMMARY_SANTA_RALLY_CS.md  # Santa Rally executive summary (Czech)
+├── _thanks/                      # Thanksgiving-themed comprehensive reports
+│   ├── ANALYSIS_SP500_25YEARS.md         # S&P 500 comprehensive report
+│   ├── ANALYSIS_NASDAQ100_25YEARS.md     # NASDAQ-100 comprehensive report
+│   ├── ANALYSIS_25YEARS.md               # DJIA comprehensive report
+│   └── COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md # Window comparison doc
+├── _cyberm/                      # Cyber Monday comprehensive analysis
+│   └── COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md
+├── _santa/                       # Santa Rally analysis and outputs
+│   ├── ANALYSIS_SANTA_RALLY_COMPARISON.md
+│   └── (outputs) djia/nasdaq100/sp500 Santa Rally run logs
 ├── STATISTICAL_RESULTS_SUMMARY.md # Statistical testing documentation
 └── REFERENCES.md                # Academic citations
 ```
@@ -341,33 +351,19 @@ For comprehensive analysis results, see:
 
 ### Thanksgiving Window (Traditional Black Friday)
 - **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)** - Cross-index stakeholder overview (354 stocks, 8,293 observations)
-- **[ANALYSIS_SP500_25YEARS.md](ANALYSIS_SP500_25YEARS.md)** - S&P 500 detailed analysis (244 stocks, 5,756 observations)
-- **[ANALYSIS_NASDAQ100_25YEARS.md](ANALYSIS_NASDAQ100_25YEARS.md)** - NASDAQ-100 detailed analysis (80 stocks, 1,818 observations)
-- **[ANALYSIS_25YEARS.md](ANALYSIS_25YEARS.md)** - DJIA detailed analysis (30 stocks, 719 observations)
+- **[ANALYSIS_SP500_25YEARS.md](_thanks/ANALYSIS_SP500_25YEARS.md)** - S&P 500 detailed analysis (244 stocks, 5,756 observations)
+- **[ANALYSIS_NASDAQ100_25YEARS.md](_thanks/ANALYSIS_NASDAQ100_25YEARS.md)** - NASDAQ-100 detailed analysis (80 stocks, 1,818 observations)
+- **[ANALYSIS_25YEARS.md](_thanks/ANALYSIS_25YEARS.md)** - DJIA detailed analysis (30 stocks, 719 observations)
 - **[STATISTICAL_RESULTS_SUMMARY.md](STATISTICAL_RESULTS_SUMMARY.md)** - Statistical significance testing results
 
-### Cyber Monday Window (Extended to Monday)
-- **[COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md](COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md)** - Complete Cyber Monday analysis (374 stocks, 8,510 observations, 10 significant)
-- **[COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md)** - Side-by-side comparison of both trading windows
+### Santa Claus Rally Window (Year-End)
+- **[EXECUTIVE_SUMMARY_SANTA_RALLY.md](EXECUTIVE_SUMMARY_SANTA_RALLY.md)** | **[Czech](EXECUTIVE_SUMMARY_SANTA_RALLY_CS.md)** - DJIA shows statistical significance (DIS, JPM)
+- **[ANALYSIS_SANTA_RALLY_COMPARISON.md](_santa/ANALYSIS_SANTA_RALLY_COMPARISON.md)** - Cross-index Santa vs. Thanksgiving comparison
 
 ### Additional Resources
+- **[COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md](_cyberm/COMPREHENSIVE_CYBER_MONDAY_ANALYSIS.md)** - Full Cyber Monday analysis
+- **[COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](_thanks/COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md)** - Thanksgiving vs. Cyber Monday comparison
 - **[REFERENCES.md](REFERENCES.md)** - Academic citations and methodology references
-
-**Top Performers Across All Indices (2000-2024):**
-1. **ENPH** (NASDAQ-100): +3.61% median return, 69% win rate - Highest return across all 354 stocks
-2. **SHOP** (S&P 500): +3.36% median return, 60% win rate - E-commerce leader
-3. **DE** (S&P 500): +3.08% median return, 64% win rate - Deere & Company (industrials)
-4. **PANW** (S&P 500, NASDAQ-100): +3.05% median return, 69% win rate - Cybersecurity
-5. **AVGO** (S&P 500, NASDAQ-100): +2.27% median return, 69% win rate - Semiconductors
-
-**Universal Champion:**
-- **MNST** (Monster Beverage): +2.02% median return, **84% win rate** across all three indices - Highest consistency
-
-**Sector Insights:**
-- **Technology/Semiconductors:** 6 of top 10 performers across all indices
-- **Consumer Discretionary:** Strong showing (SHOP, AMZN, HD) driven by Black Friday anticipation
-- **Traditional Banking:** Consistent underperformance (GS, JPM, WFC all negative)
-- **Payment Networks:** Vastly outperform banks (MA +2.17%, V +1.03%)
 
 ## Disclaimer
 

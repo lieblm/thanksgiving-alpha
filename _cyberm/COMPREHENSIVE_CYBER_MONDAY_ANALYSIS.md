@@ -1049,7 +1049,7 @@ This analysis builds on established literature on calendar anomalies and holiday
 
 5. **Meneu, V., & Pardo, A. (2004).** "Pre-holiday effect, large trades and small investor behaviour." *Journal of Empirical Finance*, 11(2), 231-246.
 
-For complete references, see: [REFERENCES.md](REFERENCES.md) in main repository.
+For complete references, see: [REFERENCES.md](../REFERENCES.md) in main repository.
 
 ---
 
@@ -1064,12 +1064,12 @@ For complete references, see: [REFERENCES.md](REFERENCES.md) in main repository.
 **License:** MIT  
 
 **Related Documents:**
-- [COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md) - Two-index comparison
-- [ANALYSIS_25YEARS.md](ANALYSIS_25YEARS.md) - DJIA Thanksgiving window (main branch)
-- [ANALYSIS_NASDAQ100_25YEARS.md](ANALYSIS_NASDAQ100_25YEARS.md) - NASDAQ-100 Thanksgiving window
-- [ANALYSIS_SP500_25YEARS.md](ANALYSIS_SP500_25YEARS.md) - S&P 500 Thanksgiving window
-- [EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md) - Cross-index synthesis
-- [STATISTICAL_RESULTS_SUMMARY.md](STATISTICAL_RESULTS_SUMMARY.md) - Statistical methodology
+- [COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md](../_thanks/COMPARISON_CYBER_MONDAY_VS_THANKSGIVING.md) - Two-index comparison
+- [ANALYSIS_25YEARS.md](../_thanks/ANALYSIS_25YEARS.md) - DJIA Thanksgiving window (main branch)
+- [ANALYSIS_NASDAQ100_25YEARS.md](../_thanks/ANALYSIS_NASDAQ100_25YEARS.md) - NASDAQ-100 Thanksgiving window
+- [ANALYSIS_SP500_25YEARS.md](../_thanks/ANALYSIS_SP500_25YEARS.md) - S&P 500 Thanksgiving window
+- [EXECUTIVE_SUMMARY.md](../EXECUTIVE_SUMMARY.md) - Cross-index synthesis
+- [STATISTICAL_RESULTS_SUMMARY.md](../_thanks/STATISTICAL_RESULTS_SUMMARY.md) - Statistical methodology
 
 **Citation:**
 ```

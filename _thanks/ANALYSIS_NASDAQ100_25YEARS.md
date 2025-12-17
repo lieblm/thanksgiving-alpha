@@ -296,7 +296,7 @@ Our NASDAQ-100 findings of 89% positive median returns and technology sector dom
 - Transaction costs and market impact can erode observed patterns
 - Statistical significance testing with multiple hypothesis correction is essential
 
-**For complete academic references and methodology, see:** [REFERENCES.md](REFERENCES.md)
+**For complete academic references and methodology, see:** [REFERENCES.md](../REFERENCES.md)
 
 ---
 
@@ -325,8 +325,8 @@ python -m tgalpha.cli configs/nasdaq100_25years.yaml --top=50 --show-coverage
 **Related Analyses:**
 - [DJIA 25-Year Analysis](ANALYSIS_25YEARS.md) - 30 stocks, 718 observations
 - [S&P 500 25-Year Analysis](ANALYSIS_SP500_25YEARS.md) - 264 stocks, 5,879 observations  
-- [Executive Summary](EXECUTIVE_SUMMARY.md) - Cross-index synthesis with 8,501 total observations
-- [Academic References](REFERENCES.md) - 10 citations including Lakonishok & Smidt (1988)
+- [Executive Summary](../EXECUTIVE_SUMMARY.md) - Cross-index synthesis with 8,501 total observations
+- [Academic References](../REFERENCES.md) - 10 citations including Lakonishok & Smidt (1988)
 
 **Generated with:** Thanksgiving-Alpha v1.0.0  
 **Analysis Date:** November 6, 2025  

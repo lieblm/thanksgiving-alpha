@@ -230,7 +230,7 @@ Our findings of 83% positive median returns during the Thanksgiving window are c
 - Transaction costs and market impact can erode observed patterns
 - Statistical significance testing with multiple hypothesis correction is essential
 
-**For complete academic references and methodology, see:** [REFERENCES.md](REFERENCES.md)
+**For complete academic references and methodology, see:** [REFERENCES.md](../REFERENCES.md)
 
 ---
 
@@ -301,8 +301,8 @@ python -m tgalpha.cli configs/djia_25years.yaml --top=30 --show-coverage
 **Related Analyses:**
 - [S&P 500 25-Year Analysis](ANALYSIS_SP500_25YEARS.md) - 264 stocks, 5,879 observations
 - [NASDAQ-100 25-Year Analysis](ANALYSIS_NASDAQ100_25YEARS.md) - 96 stocks, 1,904 observations
-- [Executive Summary](EXECUTIVE_SUMMARY.md) - Cross-index synthesis with 8,501 total observations
-- [Academic References](REFERENCES.md) - 10 citations including Lakonishok & Smidt (1988)
+- [Executive Summary](../EXECUTIVE_SUMMARY.md) - Cross-index synthesis with 8,501 total observations
+- [Academic References](../REFERENCES.md) - 10 citations including Lakonishok & Smidt (1988)
 
 ---
 

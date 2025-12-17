@@ -411,7 +411,7 @@ Neutral/Underweight:
    - Consumer discretionary win rates reach 76-84%
 
 4. **Cross-Market Consistency**
-   - S&P 500, DJIA, and NASDAQ-100 all show positive seasonality
+   - S&P 500, DJIA, and NASDAQ-100 all show positive Thanksgiving seasonality
    - Effect magnitude varies but direction is consistent
    - Suggests market-wide behavioral pattern
 
@@ -503,7 +503,7 @@ output:
 
 **Data Source:** Yahoo Finance (yfinance library)  
 **Calendar:** NYSE trading calendar with 10 federal holidays  
-**Black Friday:** Half-day session (1:00 PM ET close) counted as trading day  
+**Black Friday:** Half-day session (1:00 PM ET) counted as trading day  
 **Return Calculation:** Simple returns (Close[after] / Open[before] - 1)  
 **Aggregation:** Median, mean, win rate, standard deviation per symbol  
 **Filtering:** Minimum 10 observations (trades) required
@@ -535,7 +535,7 @@ Our S&P 500 findings—with 89% of stocks showing positive median returns—prov
 - Survivorship bias present in current constituent analysis
 - Statistical significance testing with multiple hypothesis correction is essential
 
-**For complete academic references, methodology details, and citations, see:** [REFERENCES.md](REFERENCES.md)
+**For complete academic references, methodology details, and citations, see:** [REFERENCES.md](../REFERENCES.md)
 
 ---
 
@@ -543,8 +543,8 @@ Our S&P 500 findings—with 89% of stocks showing positive median returns—prov
 
 - [DJIA 25-Year Analysis](ANALYSIS_25YEARS.md) - 30 stocks, 718 observations, 96% data completeness
 - [NASDAQ-100 25-Year Analysis](ANALYSIS_NASDAQ100_25YEARS.md) - 96 stocks, 1,904 observations, tech-heavy focus
-- [Executive Summary](EXECUTIVE_SUMMARY.md) - Cross-index synthesis with 8,501 total observations across 390 unique stocks
-- [Academic References](REFERENCES.md) - 10 citations covering holiday effects, statistical methods, and market microstructure
+- [Executive Summary](../EXECUTIVE_SUMMARY.md) - Cross-index synthesis with 8,501 total observations across 390 unique stocks
+- [Academic References](../REFERENCES.md) - 10 citations covering holiday effects, statistical methods, and market microstructure
 
 ---
 

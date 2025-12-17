@@ -330,9 +330,9 @@ python -m tgalpha.cli configs/djia_25years.yaml --top=20
 open data/outputs/ranking.html
 
 # Read detailed analysis reports
-cat ANALYSIS_SP500_25YEARS.md      # S&P 500 comprehensive report
-cat ANALYSIS_NASDAQ100_25YEARS.md  # NASDAQ-100 comprehensive report  
-cat ANALYSIS_25YEARS.md            # DJIA comprehensive report
+cat _thanks/ANALYSIS_SP500_25YEARS.md      # S&P 500 comprehensive report
+cat _thanks/ANALYSIS_NASDAQ100_25YEARS.md  # NASDAQ-100 comprehensive report  
+cat _thanks/ANALYSIS_25YEARS.md            # DJIA comprehensive report
 ```
 
 ### Future Enhancements (Optional)
@@ -382,9 +382,9 @@ With 28 passing tests, comprehensive documentation, three completed 25-year anal
 
 ## Key Reports Available
 
-- **ANALYSIS_SP500_25YEARS.md** - S&P 500 comprehensive analysis (5,756 observations, 244 stocks from 270-stock representative sample)
-- **ANALYSIS_NASDAQ100_25YEARS.md** - NASDAQ-100 comprehensive analysis (1,818 observations, 80 stocks)
-- **ANALYSIS_25YEARS.md** - DJIA comprehensive 25-year historical analysis (719 observations, 30 stocks)
+- **ANALYSIS_SP500_25YEARS.md** - S&P 500 comprehensive analysis (5,756 observations, 244 stocks from 270-stock representative sample) — see _thanks/ANALYSIS_SP500_25YEARS.md
+- **ANALYSIS_NASDAQ100_25YEARS.md** - NASDAQ-100 comprehensive analysis (1,818 observations, 80 stocks) — see _thanks/ANALYSIS_NASDAQ100_25YEARS.md
+- **ANALYSIS_25YEARS.md** - DJIA comprehensive 25-year historical analysis (719 observations, 30 stocks) — see _thanks/ANALYSIS_25YEARS.md
 - **EXECUTIVE_SUMMARY.md** - This cross-index stakeholder summary
 - **README.md** - Technical documentation and usage guide
 

@@ -1,34 +1,5 @@
 # Santa Claus Rally: Souhrnné shrnutí
 
-**Období analýzy:** 2000-2024 (25 let)  
-**Obchodní okno:** Posledních 5 obchodních dnů roku + První 2 obchodní dny nového roku (7 dnů)  
-**Autor:** Martin Liebl (lieblm@gmail.com)  
-**Datum:** 16. prosince 2025
-
----
-
-## Co je Santa Claus Rally?
-
-Santa Claus Rally je známý burzovní vzorec, kdy ceny akcií mají tendenci růst během posledního týdne prosince a prvních několika dnů ledna. Toto 7denní okno překlenuje konec roku a je zkoumáno obchodníky a výzkumníky již desetiletí.
-
-Tato analýza zkoumá 25 let dat (2000-2024) napříč třemi hlavními americkými akciovými indexy—DJIA (30 akcií), NASDAQ-100 (73 akcií) a S&P 500 (229 akcií)—aby otestovala, zda tento sezónní vzorec obstojí při přísném statistickém testování.
-
----
-
-## Klíčové zjištění: Silnější než Thanksgiving
-
-Santa Claus Rally vykazuje **statisticky významné důkazy** u 2 z 30 akcií DJIA (Disney +2,55%, JPMorgan +1,97%), což z něj činí **silnější efekt než Thanksgiving**, který po korekci nevykazoval žádné statisticky významné akcie. To naznačuje, že pozice ke konci roku vytvářejí spolehlivější sezónní vzorec pro specifické velké hodnotové akcie.
-
----
-
-## Souhrn výsledků napříč indexy
-
-| Index | Akcie | Pozorování | Pokrytí | Významné akcie | Nejlepší výkon |
-|-------|-------|------------|---------|----------------|----------------|
-| **DJIA** | 30 | 718 | 95,7% | **2*** | DIS (+2,55%) |
-| **NASDAQ-100** | 73 | 1 898 | 78,8% | 0 | MU (+3,69%) |
-| **S&P 500** | 229 | 5 475 | 88,9% | 0 | CF (+3,84%) |
-
 *Statisticky významné po Benjamini-Hochberg FDR korekci (α=0,05)
 
 ---

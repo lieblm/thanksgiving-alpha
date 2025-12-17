@@ -199,9 +199,9 @@ Thanksgiving-Alpha poskytuje robustní důkazy o sezónním efektu kolem Díkův
 **Repository:** https://github.com/lieblm/thanksgiving-alpha
 
 **Klíčové reporty:**
-- `ANALYSIS_SP500_25YEARS.md` - Komplexní analýza S&P 500
-- `ANALYSIS_NASDAQ100_25YEARS.md` - Komplexní analýza NASDAQ-100
-- `ANALYSIS_25YEARS.md` - Komplexní analýza DJIA
+- `_thanks/ANALYSIS_SP500_25YEARS.md` - Komplexní analýza S&P 500
+- `_thanks/ANALYSIS_NASDAQ100_25YEARS.md` - Komplexní analýza NASDAQ-100
+- `_thanks/ANALYSIS_25YEARS.md` - Komplexní analýza DJIA
 - `EXECUTIVE_SUMMARY.md` - Anglická verze tohoto shrnutí
 - `README.md` - Technická dokumentace
 
