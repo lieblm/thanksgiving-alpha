@@ -167,7 +167,7 @@ Toto jsou **jediné dvě akcie** napříč všemi třemi indexy, které prošly 
 
 ## Další informace
 
-- **Úplná analýza:** [ANALYSIS_SANTA_RALLY_COMPARISON.md](https://github.com/lieblm/thanksgiving-alpha/blob/main/ANALYSIS_SANTA_RALLY_COMPARISON.md)
+- **Úplná analýza:** [ANALYSIS_SANTA_RALLY_COMPARISON.md](_santa/ANALYSIS_SANTA_RALLY_COMPARISON.md)
 - **Repozitář:** https://github.com/lieblm/thanksgiving-alpha
 - **Metodologie:** [README.md](https://github.com/lieblm/thanksgiving-alpha/blob/main/README.md) pro technické detaily
 - **Citace:** [CITATION.cff](https://github.com/lieblm/thanksgiving-alpha/blob/main/CITATION.cff) pro akademické použití
