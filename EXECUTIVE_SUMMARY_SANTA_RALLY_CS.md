@@ -1,6 +1,6 @@
 # Santa Claus Rally: Souhrnné shrnutí
 
-*Statisticky významné po Benjamini-Hochberg FDR korekci (α=0,05)
+*Statisticky významné po Benjamini-Hochberg FDR korekci (α=0,05)*
 
 ---
 
@@ -20,7 +20,7 @@
 - **Sharpe Ratio:** 0,641
 - **Sektor:** Finanční služby
 
-Toto jsou **jediné dvě akcie** napříč všemi třemi indexy, které prošly přísným statistickým testováním s korekcí pro mnohonásobné testování.
+**Klíčový nález:** Toto jsou **jediné dvě akcie** napříč všemi třemi indexy, které prošly přísným statistickým testováním s korekcí pro mnohonásobné testování.
 
 ---
 

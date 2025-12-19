@@ -1,4 +1,14 @@
 # Santa Claus Rally: Executive Summary
+
+*Statistically significant after Benjamini-Hochberg FDR correction (α=0.05)*
+
+---
+
+## Statistically Significant Winners
+
+### DIS (Walt Disney) ⭐
+- **Median Return:** +2.55%
+- **Win Rate:** 72% (18 of 25 years)
 - **p-value:** 0.037 (significant after correction)
 - **Sharpe Ratio:** 0.631
 - **Sector:** Consumer Discretionary
@@ -10,7 +20,7 @@
 - **Sharpe Ratio:** 0.641
 - **Sector:** Financials
 
-These are the **only two stocks** across all three indices that pass rigorous statistical testing with multiple testing correction.
+**Key Finding:** These are the **only two stocks** across all three indices that pass rigorous statistical testing with multiple testing correction.
 
 ---
 
